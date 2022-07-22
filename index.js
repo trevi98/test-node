@@ -9,7 +9,7 @@ const server = http.createServer((req,res)=>{
    }
    else{
         console.log(req);
-        fs.writeFile('log.txt',req,{encoding:'utf-8'},()=>{console.log('done')})
+        fs.writeFile('log.txt',"gg",{encoding:'utf-8'},()=>{console.log('done')})
 
    }
 });
